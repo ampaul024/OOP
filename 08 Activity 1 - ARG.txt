@@ -1,0 +1,41 @@
+1.
+
+The error in this code is 
+	public static void eatGrass();
+
+
+ public interface Carnivore {
+
+	int pieces = 10;
+	public static eatGrass();
+	public int chew(){
+		return 13;
+}
+}
+
+
+
+2.
+
+The Error in this code is
+public class Dragonfly extends insect{}
+
+
+
+interface HasWings{
+
+	public int getNumberOfWings();
+}
+
+abstract class Insect implements HasWings{
+
+	abstract int getNumberOfLegs();
+}
+
+abstract class Dragonfly extends Insect{
+
+	int getNumberOfLegs(){
+		return 6;
+
+}
+}
